@@ -1,0 +1,5 @@
+__pycache__/
+backup_dataset/
+processed_dataset/
+unproccesed_dataset/
+photo_transformation_testing/annotations/
