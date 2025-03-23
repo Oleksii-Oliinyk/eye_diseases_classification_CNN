@@ -8,7 +8,7 @@ import torchvision.transforms as transforms
 from PIL import Image
 import requests
 from io import BytesIO
-from model import EyeClassifierCNN 
+from validation_model.model import EyeClassifierCNN 
 
 app = FastAPI()
 
