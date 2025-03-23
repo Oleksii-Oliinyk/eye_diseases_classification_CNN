@@ -1,0 +1,40 @@
+{"time":"2025-02-27T11:54:44.2950279+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"d:\\University\\Diploma\\wandb\\run-20250227_115444-rmwchy28\\logs\\debug-core.log"}
+{"time":"2025-02-27T11:54:44.4115976+02:00","level":"INFO","msg":"created new stream","id":"rmwchy28"}
+{"time":"2025-02-27T11:54:44.4121303+02:00","level":"INFO","msg":"handler: started","stream_id":"rmwchy28"}
+{"time":"2025-02-27T11:54:44.4121303+02:00","level":"INFO","msg":"stream: started","id":"rmwchy28"}
+{"time":"2025-02-27T11:54:44.4121303+02:00","level":"INFO","msg":"sender: started","stream_id":"rmwchy28"}
+{"time":"2025-02-27T11:54:44.4121303+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"rmwchy28"}
+{"time":"2025-02-27T11:54:44.8077164+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-27T11:54:44.9784254+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:44.9886719+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:44.9978881+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.0080052+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.0102905+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.0215554+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.0374025+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.0493523+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.0533263+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.0627896+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.0808961+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.0885931+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.0916936+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.0997578+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.110443+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.1124481+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.1150438+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.1258127+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.1281573+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.1557415+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.1557415+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.185004+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:54:45.3898211+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:54:45.3987904+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:55:25.1835311+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-27T11:55:25.1840367+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-27T11:55:26.046094+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-27T11:55:26.199159+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 3-4, summary, console lines 64-103","runtime_seconds":0.153065}],"total_operations":1}}
+{"time":"2025-02-27T11:55:27.3399268+02:00","level":"INFO","msg":"stream: closing","id":"rmwchy28"}
+{"time":"2025-02-27T11:55:27.3399268+02:00","level":"INFO","msg":"handler: closed","stream_id":"rmwchy28"}
+{"time":"2025-02-27T11:55:27.3399268+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rmwchy28"}
+{"time":"2025-02-27T11:55:27.3399268+02:00","level":"INFO","msg":"sender: closed","stream_id":"rmwchy28"}
+{"time":"2025-02-27T11:55:27.3404345+02:00","level":"INFO","msg":"stream: closed","id":"rmwchy28"}

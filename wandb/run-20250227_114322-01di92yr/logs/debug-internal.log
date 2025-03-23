@@ -1,0 +1,40 @@
+{"time":"2025-02-27T11:43:22.5093401+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"d:\\University\\Diploma\\wandb\\run-20250227_114322-01di92yr\\logs\\debug-core.log"}
+{"time":"2025-02-27T11:43:22.6273611+02:00","level":"INFO","msg":"created new stream","id":"01di92yr"}
+{"time":"2025-02-27T11:43:22.6273611+02:00","level":"INFO","msg":"stream: started","id":"01di92yr"}
+{"time":"2025-02-27T11:43:22.6273611+02:00","level":"INFO","msg":"handler: started","stream_id":"01di92yr"}
+{"time":"2025-02-27T11:43:22.6273611+02:00","level":"INFO","msg":"sender: started","stream_id":"01di92yr"}
+{"time":"2025-02-27T11:43:22.6273611+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"01di92yr"}
+{"time":"2025-02-27T11:43:22.9369159+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-27T11:43:23.1266712+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.1359548+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.1477364+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.1580827+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.1614787+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.1764403+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.1974796+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.208094+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.2121075+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.2266972+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.2483384+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.2596431+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.2631631+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.2756451+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.2776682+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.297602+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.297602+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.3432214+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.3432214+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.3780203+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.3780203+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.3849224+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:43:23.5828845+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:43:23.5926781+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:44:08.3701839+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-27T11:44:08.3710797+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-27T11:44:09.2155289+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-27T11:44:09.3839065+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.1683776}],"total_operations":1}}
+{"time":"2025-02-27T11:44:10.5696654+02:00","level":"INFO","msg":"stream: closing","id":"01di92yr"}
+{"time":"2025-02-27T11:44:10.5696654+02:00","level":"INFO","msg":"handler: closed","stream_id":"01di92yr"}
+{"time":"2025-02-27T11:44:10.5707408+02:00","level":"INFO","msg":"sender: closed","stream_id":"01di92yr"}
+{"time":"2025-02-27T11:44:10.5707408+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"01di92yr"}
+{"time":"2025-02-27T11:44:10.5712496+02:00","level":"INFO","msg":"stream: closed","id":"01di92yr"}

@@ -1,0 +1,67 @@
+2025-02-27 11:39:08,016 INFO    MainThread:13388 [wandb_init.py:setup_run_log_directory():647] Logging user logs to d:\University\Diploma\wandb\run-20250227_113908-3l683q47\logs\debug.log
+2025-02-27 11:39:08,016 INFO    MainThread:13388 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to d:\University\Diploma\wandb\run-20250227_113908-3l683q47\logs\debug-internal.log
+2025-02-27 11:39:08,016 INFO    MainThread:13388 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000022F91765880>
+2025-02-27 11:39:08,016 INFO    MainThread:13388 [wandb_init.py:init():761] calling init triggers
+2025-02-27 11:39:08,016 INFO    MainThread:13388 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0007, 'architecture': 'CNN', 'dataset': 'custom-dataset', 'epochs': 5, '_wandb': {}}
+2025-02-27 11:39:08,017 INFO    MainThread:13388 [wandb_init.py:init():784] starting backend
+2025-02-27 11:39:08,017 INFO    MainThread:13388 [wandb_init.py:init():788] sending inform_init request
+2025-02-27 11:39:08,021 INFO    MainThread:13388 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-27 11:39:08,025 INFO    MainThread:13388 [wandb_init.py:init():803] backend started and connected
+2025-02-27 11:39:08,031 INFO    MainThread:13388 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-02-27 11:39:08,069 INFO    MainThread:13388 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 2497206: character maps to <undefined>
+2025-02-27 11:39:08,071 INFO    MainThread:13388 [wandb_init.py:init():896] updated telemetry
+2025-02-27 11:39:08,129 INFO    MainThread:13388 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-02-27 11:39:08,500 INFO    MainThread:13388 [wandb_init.py:init():995] starting run threads in backend
+2025-02-27 11:39:08,717 INFO    MainThread:13388 [wandb_run.py:_console_start():2377] atexit reg
+2025-02-27 11:39:08,718 INFO    MainThread:13388 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-02-27 11:39:08,718 INFO    MainThread:13388 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-02-27 11:39:08,718 INFO    MainThread:13388 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-02-27 11:39:08,719 INFO    MainThread:13388 [wandb_init.py:init():1037] run started, returning control to user process
+2025-02-27 11:39:08,720 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,720 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,730 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,735 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,735 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,749 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,752 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,753 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,769 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,789 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,789 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,798 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,802 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,802 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,810 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,812 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,813 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,819 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,822 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,823 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,830 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,835 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,835 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,843 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,846 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,847 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,861 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,865 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,865 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,877 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:08,880 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:08,880 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:08,899 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:09,033 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:09,034 INFO    MainThread:13388 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-27 11:39:09,043 INFO    MainThread:13388 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-27 11:39:55,637 INFO    MainThread:13388 [wandb_run.py:_finish():2112] finishing run oleksii-oliinyk-lviv-polytechnic-national-university/eye-validation-cnn/3l683q47
+2025-02-27 11:39:55,641 ERROR   MainThread:13388 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-27 11:39:55,641 INFO    MainThread:13388 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-27 11:39:55,641 INFO    MainThread:13388 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-02-27 11:39:55,642 INFO    MainThread:13388 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-02-27 11:39:55,644 INFO    MainThread:13388 [wandb_run.py:_restore():2324] restore
+2025-02-27 11:39:55,645 INFO    MainThread:13388 [wandb_run.py:_restore():2330] restore done
+2025-02-27 11:39:57,841 INFO    MsgRouterThr:13388 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-02-27 11:39:57,842 INFO    MainThread:13388 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-02-27 11:39:57,842 INFO    MainThread:13388 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-02-27 11:39:57,844 INFO    MainThread:13388 [wandb_run.py:_footer_sync_info():3919] logging synced files

@@ -1,0 +1,42 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.5",
+  "startedAt":  "2025-02-27T09:43:22.504580Z",
+  "program":  "d:\\University\\Diploma\\training.ipynb",
+  "codePath":  "training.ipynb",
+  "git":  {
+    "remote":  "https://github.com/Oleksii-Oliinyk/eye_diseases_classification_CNN.git",
+    "commit":  "b010781216414d3144aa936d76eab5acff84ddbf"
+  },
+  "email":  "oleksii.oliinyk.work@gmail.com",
+  "root":  "d:\\University\\Diploma",
+  "host":  "Alex",
+  "executable":  "d:\\Programs\\Python\\python.exe",
+  "codePathLocal":  "training.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "383057391616",
+      "used":  "274643304448"
+    }
+  },
+  "memory":  {
+    "total":  "16856289280"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  2048,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.8"
+}

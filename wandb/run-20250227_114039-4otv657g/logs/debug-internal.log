@@ -1,0 +1,34 @@
+{"time":"2025-02-27T11:40:40.0019658+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"d:\\University\\Diploma\\wandb\\run-20250227_114039-4otv657g\\logs\\debug-core.log"}
+{"time":"2025-02-27T11:40:40.1385397+02:00","level":"INFO","msg":"created new stream","id":"4otv657g"}
+{"time":"2025-02-27T11:40:40.1385397+02:00","level":"INFO","msg":"stream: started","id":"4otv657g"}
+{"time":"2025-02-27T11:40:40.139602+02:00","level":"INFO","msg":"handler: started","stream_id":"4otv657g"}
+{"time":"2025-02-27T11:40:40.139602+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"4otv657g"}
+{"time":"2025-02-27T11:40:40.1401355+02:00","level":"INFO","msg":"sender: started","stream_id":"4otv657g"}
+{"time":"2025-02-27T11:40:40.4354606+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-27T11:40:40.6396847+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.6476848+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.6512037+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.6605765+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.6626409+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.6789106+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.6989236+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.707561+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.7117789+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.7211507+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.7233057+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.7330483+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.7359176+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.7448348+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.7463017+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.7550508+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.7573532+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.7664687+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.7683491+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.7769297+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.7792188+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.7868688+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:40:40.9126085+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:40:40.9234629+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-27T11:41:12.8715979+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-27T11:42:26.2365533+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/oleksii-oliinyk-lviv-polytechnic-national-university/eye-validation-cnn/4otv657g/file_stream"}
+{"time":"2025-02-27T11:42:26.2365533+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/oleksii-oliinyk-lviv-polytechnic-national-university/eye-validation-cnn/4otv657g/file_stream: {\"error\":\"run eye-validation-cnn/4otv657g not found while streaming file\"}"}
