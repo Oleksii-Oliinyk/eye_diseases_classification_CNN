@@ -1,1 +1,0 @@
-{"acc/eval":0.8995633187772926,"precision/train":0.9022632734870082,"f1-score/eval":0.8929297446739307,"_wandb":{"runtime":47},"recall/train":0.895606840542577,"acc/train":0.9031113537117904,"f1-score/train":0.8985735719402685,"recall/eval":0.9129945661402615,"precision/eval":0.8833136327817179,"_timestamp":1.740649195489488e+09,"_runtime":47.2985187,"_step":9}

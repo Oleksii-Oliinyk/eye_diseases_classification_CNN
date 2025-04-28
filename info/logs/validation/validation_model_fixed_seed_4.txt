@@ -1,0 +1,2636 @@
+Epoch #1
+Epoch #1
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.64      0.90      0.75      1366
+           1       0.92      0.67      0.77      2135
+
+    accuracy                           0.76      3501
+   macro avg       0.78      0.79      0.76      3501
+weighted avg       0.81      0.76      0.76      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.66      0.97      0.79       181
+           1       0.96      0.57      0.72       209
+
+    accuracy                           0.76       390
+   macro avg       0.81      0.77      0.75       390
+weighted avg       0.82      0.76      0.75       390
+
+Epoch #2
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.75      0.96      0.84      1366
+           1       0.97      0.79      0.87      2135
+
+    accuracy                           0.86      3501
+   macro avg       0.86      0.87      0.85      3501
+weighted avg       0.88      0.86      0.86      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.77      0.92      0.84       181
+           1       0.91      0.77      0.83       209
+
+    accuracy                           0.84       390
+   macro avg       0.84      0.84      0.84       390
+weighted avg       0.85      0.84      0.84       390
+
+Epoch #3
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      1366
+           1       0.98      0.80      0.88      2135
+
+    accuracy                           0.87      3501
+   macro avg       0.87      0.88      0.86      3501
+weighted avg       0.89      0.87      0.87      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.92      0.92       181
+           1       0.93      0.93      0.93       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.93      0.93       390
+weighted avg       0.93      0.93      0.93       390
+
+Epoch #4
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.80      0.97      0.88      1366
+           1       0.98      0.85      0.91      2135
+
+    accuracy                           0.89      3501
+   macro avg       0.89      0.91      0.89      3501
+weighted avg       0.91      0.89      0.90      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92       181
+           1       0.97      0.89      0.93       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.93      0.93       390
+weighted avg       0.93      0.93      0.93       390
+
+Epoch #5
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.80      0.99      0.89      1366
+           1       0.99      0.84      0.91      2135
+
+    accuracy                           0.90      3501
+   macro avg       0.90      0.92      0.90      3501
+weighted avg       0.92      0.90      0.90      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.76      0.99      0.86       181
+           1       0.99      0.72      0.84       209
+
+    accuracy                           0.85       390
+   macro avg       0.87      0.86      0.85       390
+weighted avg       0.88      0.85      0.85       390
+
+Epoch #6
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.81      0.97      0.88      1366
+           1       0.98      0.85      0.91      2135
+
+    accuracy                           0.90      3501
+   macro avg       0.89      0.91      0.90      3501
+weighted avg       0.91      0.90      0.90      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.78      0.94      0.85       181
+           1       0.94      0.78      0.85       209
+
+    accuracy                           0.85       390
+   macro avg       0.86      0.86      0.85       390
+weighted avg       0.87      0.85      0.85       390
+
+Epoch #7
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.82      0.96      0.89      1366
+           1       0.97      0.87      0.92      2135
+
+    accuracy                           0.90      3501
+   macro avg       0.90      0.91      0.90      3501
+weighted avg       0.91      0.90      0.90      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.98      0.95       181
+           1       0.98      0.92      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #8
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.99      0.92      1366
+           1       0.99      0.90      0.94      2135
+
+    accuracy                           0.93      3501
+   macro avg       0.93      0.94      0.93      3501
+weighted avg       0.94      0.93      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.95       181
+           1       0.97      0.94      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #9
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.80      0.96      0.88      1366
+           1       0.97      0.85      0.91      2135
+
+    accuracy                           0.89      3501
+   macro avg       0.89      0.91      0.89      3501
+weighted avg       0.91      0.89      0.89      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.98      0.92       181
+           1       0.98      0.86      0.92       209
+
+    accuracy                           0.92       390
+   macro avg       0.92      0.92      0.92       390
+weighted avg       0.93      0.92      0.92       390
+
+Epoch #10
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.98      0.92      1366
+           1       0.99      0.89      0.94      2135
+
+    accuracy                           0.93      3501
+   macro avg       0.92      0.94      0.93      3501
+weighted avg       0.94      0.93      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.94       181
+           1       0.97      0.92      0.95       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.95      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #11
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.97      0.91      1366
+           1       0.98      0.90      0.94      2135
+
+    accuracy                           0.92      3501
+   macro avg       0.92      0.93      0.92      3501
+weighted avg       0.93      0.92      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.84      0.96      0.89       181
+           1       0.96      0.84      0.90       209
+
+    accuracy                           0.89       390
+   macro avg       0.90      0.90      0.89       390
+weighted avg       0.90      0.89      0.89       390
+
+Epoch #12
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.84      0.96      0.89      1366
+           1       0.97      0.88      0.92      2135
+
+    accuracy                           0.91      3501
+   macro avg       0.90      0.92      0.91      3501
+weighted avg       0.92      0.91      0.91      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.97      0.93       181
+           1       0.97      0.89      0.93       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.93      0.93       390
+weighted avg       0.93      0.93      0.93       390
+
+Epoch #13
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.86      0.86      1366
+           1       0.91      0.91      0.91      2135
+
+    accuracy                           0.89      3501
+   macro avg       0.89      0.89      0.89      3501
+weighted avg       0.89      0.89      0.89      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.83      0.94      0.88       181
+           1       0.95      0.83      0.89       209
+
+    accuracy                           0.88       390
+   macro avg       0.89      0.89      0.88       390
+weighted avg       0.89      0.88      0.88       390
+
+Epoch #14
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.78      0.95      0.86      1366
+           1       0.96      0.83      0.89      2135
+
+    accuracy                           0.88      3501
+   macro avg       0.87      0.89      0.87      3501
+weighted avg       0.89      0.88      0.88      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.97      0.92       181
+           1       0.97      0.87      0.92       209
+
+    accuracy                           0.92       390
+   macro avg       0.92      0.92      0.92       390
+weighted avg       0.92      0.92      0.92       390
+
+Epoch #15
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.97      0.92      1366
+           1       0.98      0.91      0.94      2135
+
+    accuracy                           0.93      3501
+   macro avg       0.92      0.94      0.93      3501
+weighted avg       0.94      0.93      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.94      0.91       181
+           1       0.94      0.89      0.92       209
+
+    accuracy                           0.92       390
+   macro avg       0.91      0.92      0.92       390
+weighted avg       0.92      0.92      0.92       390
+
+Epoch #16
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92      1366
+           1       0.97      0.92      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.93      0.94      0.93      3501
+weighted avg       0.94      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95       181
+           1       0.96      0.95      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #17
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.97      0.93      1366
+           1       0.98      0.93      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.94      0.95      0.94      3501
+weighted avg       0.95      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       181
+           1       0.98      0.95      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #18
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.93      1366
+           1       0.98      0.93      0.95      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.95      0.94      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.98      0.95       181
+           1       0.98      0.92      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #19
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.97      0.93      1366
+           1       0.98      0.92      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.93      0.94      0.94      3501
+weighted avg       0.94      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.94      0.92       181
+           1       0.95      0.90      0.93       209
+
+    accuracy                           0.92       390
+   macro avg       0.92      0.92      0.92       390
+weighted avg       0.92      0.92      0.92       390
+
+Epoch #20
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.84      0.96      0.90      1366
+           1       0.97      0.88      0.93      2135
+
+    accuracy                           0.91      3501
+   macro avg       0.91      0.92      0.91      3501
+weighted avg       0.92      0.91      0.91      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.94      0.90       181
+           1       0.95      0.87      0.91       209
+
+    accuracy                           0.91       390
+   macro avg       0.91      0.91      0.91       390
+weighted avg       0.91      0.91      0.91       390
+
+Epoch #21
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.83      0.97      0.90      1366
+           1       0.98      0.88      0.93      2135
+
+    accuracy                           0.91      3501
+   macro avg       0.91      0.93      0.91      3501
+weighted avg       0.92      0.91      0.92      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.85      0.99      0.91       181
+           1       0.99      0.84      0.91       209
+
+    accuracy                           0.91       390
+   macro avg       0.92      0.92      0.91       390
+weighted avg       0.93      0.91      0.91       390
+
+Epoch #22
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.99      0.93      1366
+           1       0.99      0.91      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.93      0.95      0.94      3501
+weighted avg       0.95      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.94       181
+           1       0.97      0.91      0.94       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #23
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94      1366
+           1       0.99      0.93      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.95      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95       181
+           1       0.97      0.94      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #24
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93      1366
+           1       0.97      0.93      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.94      0.94      0.94      3501
+weighted avg       0.94      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90       181
+           1       0.93      0.88      0.90       209
+
+    accuracy                           0.90       390
+   macro avg       0.90      0.90      0.90       390
+weighted avg       0.90      0.90      0.90       390
+
+Epoch #25
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.84      0.98      0.90      1366
+           1       0.99      0.88      0.93      2135
+
+    accuracy                           0.92      3501
+   macro avg       0.91      0.93      0.92      3501
+weighted avg       0.93      0.92      0.92      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93       181
+           1       0.98      0.89      0.93       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.93      0.93       390
+weighted avg       0.93      0.93      0.93       390
+
+Epoch #26
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.83      0.98      0.90      1366
+           1       0.99      0.87      0.93      2135
+
+    accuracy                           0.91      3501
+   macro avg       0.91      0.93      0.91      3501
+weighted avg       0.93      0.91      0.92      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93       181
+           1       0.98      0.89      0.93       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.93      0.93       390
+weighted avg       0.93      0.93      0.93       390
+
+Epoch #27
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94      1366
+           1       0.99      0.94      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.95      0.96      0.95      3501
+weighted avg       0.96      0.95      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95       181
+           1       0.97      0.93      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #28
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.98      0.94      1366
+           1       0.99      0.93      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.95      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       181
+           1       0.97      0.95      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #29
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.85      0.98      0.91      1366
+           1       0.99      0.89      0.94      2135
+
+    accuracy                           0.93      3501
+   macro avg       0.92      0.94      0.93      3501
+weighted avg       0.94      0.93      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       181
+           1       0.97      0.91      0.94       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #30
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.85      0.98      0.91      1366
+           1       0.99      0.89      0.93      2135
+
+    accuracy                           0.92      3501
+   macro avg       0.92      0.93      0.92      3501
+weighted avg       0.93      0.92      0.92      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95       181
+           1       0.98      0.94      0.96       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.96      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #31
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95      1366
+           1       0.99      0.94      0.96      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.96      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.97      0.92       181
+           1       0.97      0.87      0.92       209
+
+    accuracy                           0.92       390
+   macro avg       0.92      0.92      0.92       390
+weighted avg       0.92      0.92      0.92       390
+
+Epoch #32
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.99      0.94      1366
+           1       0.99      0.93      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.96      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       181
+           1       0.97      0.91      0.94       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #33
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.95      1366
+           1       0.99      0.94      0.96      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.96      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       181
+           1       0.97      0.95      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #34
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94      1366
+           1       0.99      0.94      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.95      0.96      0.95      3501
+weighted avg       0.96      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       181
+           1       0.97      0.95      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #35
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.94      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.96      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.97      0.91       181
+           1       0.97      0.87      0.91       209
+
+    accuracy                           0.91       390
+   macro avg       0.91      0.92      0.91       390
+weighted avg       0.92      0.91      0.91       390
+
+Epoch #36
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94      1366
+           1       0.99      0.93      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.96      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.97      0.93       181
+           1       0.97      0.90      0.94       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.94      0.93       390
+weighted avg       0.94      0.93      0.93       390
+
+Epoch #37
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.97      0.92      1366
+           1       0.98      0.91      0.94      2135
+
+    accuracy                           0.93      3501
+   macro avg       0.93      0.94      0.93      3501
+weighted avg       0.94      0.93      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.88      1.00      0.94       181
+           1       1.00      0.89      0.94       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.95      0.94      0.94       390
+
+Epoch #38
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92      1366
+           1       0.98      0.91      0.94      2135
+
+    accuracy                           0.93      3501
+   macro avg       0.93      0.94      0.93      3501
+weighted avg       0.94      0.93      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93       181
+           1       0.96      0.92      0.94       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #39
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.98      0.93      1366
+           1       0.99      0.92      0.95      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.95      0.94      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95       181
+           1       0.97      0.95      0.96       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #40
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93      1366
+           1       0.99      0.92      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.93      0.95      0.94      3501
+weighted avg       0.95      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.82      0.99      0.90       181
+           1       0.99      0.81      0.89       209
+
+    accuracy                           0.90       390
+   macro avg       0.91      0.90      0.90       390
+weighted avg       0.91      0.90      0.90       390
+
+Epoch #41
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.83      1.00      0.91      1366
+           1       1.00      0.87      0.93      2135
+
+    accuracy                           0.92      3501
+   macro avg       0.92      0.94      0.92      3501
+weighted avg       0.93      0.92      0.92      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.98      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #42
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96       181
+           1       0.98      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #43
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.81      0.97      0.89      1366
+           1       0.98      0.86      0.92      2135
+
+    accuracy                           0.90      3501
+   macro avg       0.90      0.92      0.90      3501
+weighted avg       0.92      0.90      0.90      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.85      0.98      0.91       181
+           1       0.98      0.85      0.91       209
+
+    accuracy                           0.91       390
+   macro avg       0.91      0.91      0.91       390
+weighted avg       0.92      0.91      0.91       390
+
+Epoch #44
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.98      0.93      1366
+           1       0.99      0.92      0.95      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.95      0.94      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96       181
+           1       0.98      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #45
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       181
+           1       0.98      0.98      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #46
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94      1366
+           1       0.99      0.94      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.95      0.96      0.95      3501
+weighted avg       0.96      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.98      0.95      0.97       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.97      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #47
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.99      0.95      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #48
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       181
+           1       0.98      0.94      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #49
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97       181
+           1       0.98      0.97      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #50
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97       181
+           1       0.99      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #51
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95      1366
+           1       0.99      0.94      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.97      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97       181
+           1       0.99      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #52
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.95       181
+           1       0.98      0.93      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #53
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #54
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.95       181
+           1       0.98      0.92      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #55
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       181
+           1       0.98      0.95      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #56
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96      1366
+           1       0.99      0.96      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97       181
+           1       0.98      0.97      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #57
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.96       181
+           1       0.98      0.94      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #58
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.95       181
+           1       0.98      0.93      0.96       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.96      0.95       390
+weighted avg       0.96      0.95      0.95       390
+
+Epoch #59
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.98      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #60
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.98      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #61
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       1.00      0.97      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.92      1.00      0.96       181
+           1       1.00      0.92      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #62
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95      1366
+           1       0.99      0.93      0.96      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.96      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #63
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.96       181
+           1       0.98      0.94      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #64
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.94      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.97      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.98      0.95      0.97       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.97      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #65
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.95       181
+           1       0.97      0.93      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #66
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95      1366
+           1       0.99      0.94      0.96      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.96      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96       181
+           1       0.98      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #67
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94      1366
+           1       0.98      0.94      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.95      0.96      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.87      0.92       181
+           1       0.90      0.98      0.94       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.92      0.93       390
+weighted avg       0.93      0.93      0.93       390
+
+Epoch #68
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.92      1366
+           1       0.97      0.92      0.94      2135
+
+    accuracy                           0.93      3501
+   macro avg       0.93      0.94      0.93      3501
+weighted avg       0.94      0.93      0.93      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.97      0.93       181
+           1       0.97      0.90      0.94       209
+
+    accuracy                           0.93       390
+   macro avg       0.93      0.94      0.93       390
+weighted avg       0.94      0.93      0.93       390
+
+Epoch #69
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.99      0.93      1366
+           1       0.99      0.91      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.94      0.95      0.94      3501
+weighted avg       0.95      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       181
+           1       1.00      0.90      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #70
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.99      0.94      1366
+           1       0.99      0.93      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.94      0.96      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #71
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97       181
+           1       1.00      0.96      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.98      0.97       390
+weighted avg       0.98      0.97      0.97       390
+
+Epoch #72
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96      1366
+           1       0.98      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       181
+           1       0.98      0.96      0.97       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #73
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #74
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97      1366
+           1       0.99      0.98      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #75
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #76
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96      1366
+           1       0.98      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       181
+           1       0.98      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #77
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.94      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.98      0.95      0.97       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.97      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #78
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.94      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.98      0.95      0.97       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.97      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #79
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      1366
+           1       0.99      0.96      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.98      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #80
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97       181
+           1       0.98      0.97      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #81
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95      1366
+           1       0.99      0.94      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.97      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.99      0.94       181
+           1       0.99      0.89      0.94       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #82
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.94      0.90      1366
+           1       0.96      0.91      0.93      2135
+
+    accuracy                           0.92      3501
+   macro avg       0.91      0.92      0.92      3501
+weighted avg       0.92      0.92      0.92      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.85      1.00      0.92       181
+           1       1.00      0.84      0.91       209
+
+    accuracy                           0.92       390
+   macro avg       0.92      0.92      0.92       390
+weighted avg       0.93      0.92      0.92       390
+
+Epoch #83
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      1.00      0.96      1366
+           1       1.00      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97       181
+           1       0.99      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #84
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      1366
+           1       0.99      0.96      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       181
+           1       0.98      0.95      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #85
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       0.99      0.96      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #86
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #87
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94      1366
+           1       0.97      0.95      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.95      0.95      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.92      0.93       181
+           1       0.93      0.95      0.94       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.93      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #88
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94      1366
+           1       0.97      0.96      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.95      0.95      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.92      0.94       181
+           1       0.93      0.96      0.95       209
+
+    accuracy                           0.94       390
+   macro avg       0.94      0.94      0.94       390
+weighted avg       0.94      0.94      0.94       390
+
+Epoch #89
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       181
+           1       0.98      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #90
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      1366
+           1       0.99      0.96      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.99      0.97      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #91
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       181
+           1       0.99      0.95      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #92
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.99      0.97      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #93
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.99      0.97      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #94
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97       181
+           1       0.99      0.96      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #95
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       0.99      0.96      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97       181
+           1       0.98      0.97      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #96
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.95       181
+           1       0.98      0.93      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #97
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       181
+           1       0.99      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #98
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       0.99      0.95      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       181
+           1       0.99      0.97      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #99
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.95       181
+           1       0.98      0.93      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #100
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.98      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.94      0.96       181
+           1       0.95      0.99      0.97       209
+
+    accuracy                           0.96       390
+   macro avg       0.97      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #101
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.94      1366
+           1       0.96      0.97      0.96      2135
+
+    accuracy                           0.95      3501
+   macro avg       0.95      0.95      0.95      3501
+weighted avg       0.95      0.95      0.95      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96       181
+           1       0.97      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #102
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       181
+           1       1.00      0.97      0.99       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.99      0.98       390
+weighted avg       0.99      0.98      0.98       390
+
+Epoch #103
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95      1366
+           1       1.00      0.93      0.96      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.95      0.96      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       181
+           1       1.00      0.95      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.98      0.97       390
+weighted avg       0.98      0.97      0.97       390
+
+Epoch #104
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      1.00      0.97      1366
+           1       1.00      0.95      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       181
+           1       1.00      0.97      0.99       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.99      0.98       390
+weighted avg       0.99      0.98      0.98       390
+
+Epoch #105
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97      1366
+           1       1.00      0.96      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       181
+           1       1.00      0.96      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #106
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      1366
+           1       1.00      0.96      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       181
+           1       1.00      0.97      0.99       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.99      0.98       390
+weighted avg       0.99      0.98      0.98       390
+
+Epoch #107
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      1366
+           1       1.00      0.97      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       181
+           1       1.00      0.96      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #108
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97      1366
+           1       1.00      0.96      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       181
+           1       1.00      0.97      0.99       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.99      0.98       390
+weighted avg       0.99      0.98      0.98       390
+
+Epoch #109
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98      1366
+           1       0.99      0.98      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       181
+           1       0.98      0.98      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #110
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93      1366
+           1       0.99      0.92      0.95      2135
+
+    accuracy                           0.94      3501
+   macro avg       0.93      0.95      0.94      3501
+weighted avg       0.94      0.94      0.94      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       181
+           1       1.00      0.95      0.98       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.98      0.97       390
+weighted avg       0.98      0.97      0.97       390
+
+Epoch #111
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98      1366
+           1       1.00      0.97      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       181
+           1       1.00      0.96      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #112
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95      1366
+           1       0.98      0.95      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.96      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       181
+           1       0.96      0.98      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #113
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97      1366
+           1       0.98      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.98      0.99      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #114
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.98      1366
+           1       0.99      0.99      0.99      2135
+
+    accuracy                           0.99      3501
+   macro avg       0.99      0.99      0.99      3501
+weighted avg       0.99      0.99      0.99      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.98      0.99      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #115
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97      1366
+           1       0.99      0.97      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       181
+           1       0.98      0.97      0.97       209
+
+    accuracy                           0.97       390
+   macro avg       0.97      0.97      0.97       390
+weighted avg       0.97      0.97      0.97       390
+
+Epoch #116
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98      1366
+           1       0.99      0.98      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.98      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #117
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97      1366
+           1       0.99      0.98      0.98      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.98      0.99      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #118
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95      1366
+           1       0.99      0.94      0.97      2135
+
+    accuracy                           0.96      3501
+   macro avg       0.96      0.97      0.96      3501
+weighted avg       0.96      0.96      0.96      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.99      0.94       181
+           1       0.99      0.91      0.95       209
+
+    accuracy                           0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+
+Epoch #119
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1366
+           1       1.00      0.95      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96       181
+           1       0.99      0.93      0.96       209
+
+    accuracy                           0.96       390
+   macro avg       0.96      0.96      0.96       390
+weighted avg       0.96      0.96      0.96       390
+
+Epoch #120
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.97      1366
+           1       1.00      0.96      0.98      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.97      0.98      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.99      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #121
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      1366
+           1       0.99      0.96      0.97      2135
+
+    accuracy                           0.97      3501
+   macro avg       0.96      0.97      0.97      3501
+weighted avg       0.97      0.97      0.97      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.99      0.99      0.99       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #122
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98      1366
+           1       0.99      0.98      0.99      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.99      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #123
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98      1366
+           1       0.99      0.98      0.99      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.99      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       181
+           1       0.99      0.97      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #124
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98      1366
+           1       0.99      0.98      0.99      2135
+
+    accuracy                           0.98      3501
+   macro avg       0.98      0.98      0.98      3501
+weighted avg       0.98      0.98      0.98      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.99      0.99      0.99       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Epoch #125
+Training: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99      1366
+           1       0.99      0.99      0.99      2135
+
+    accuracy                           0.99      3501
+   macro avg       0.99      0.99      0.99      3501
+weighted avg       0.99      0.99      0.99      3501
+
+Evaluation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.99      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
+Validation: 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       181
+           1       0.99      0.98      0.98       209
+
+    accuracy                           0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+
