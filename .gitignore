@@ -5,8 +5,8 @@ wandb/
 info/models_info/
 
 validation_model/unproccesed_dataset/
-validation_model/processed_dataset/
+#validation_model/processed_dataset/
 
 classification_model/processing_dataset_phase_1/
 classification_model/processing_dataset_phase_2/
-classification_model/processed_dataset/
+#classification_model/processed_dataset/
