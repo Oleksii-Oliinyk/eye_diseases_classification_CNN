@@ -2,7 +2,7 @@ venv/
 __pycache__/
 wandb/
 
-info/models_info/
+info/models/
 
 validation_model/unproccesed_dataset/
 #validation_model/processed_dataset/
