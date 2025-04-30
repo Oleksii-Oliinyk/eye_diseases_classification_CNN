@@ -10,3 +10,5 @@ validation_model/unproccesed_dataset/
 classification_model/processing_dataset_phase_1/
 classification_model/processing_dataset_phase_2/
 #classification_model/processed_dataset/
+
+retinoblastoma_model/retinoblastoma_uprocessed_dataset/
