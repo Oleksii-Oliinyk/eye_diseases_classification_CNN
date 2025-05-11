@@ -1,4 +1,5 @@
 venv/
+.venv/
 __pycache__/
 wandb/
 
@@ -12,3 +13,7 @@ classification_model/processing_dataset_phase_2/
 #classification_model/processed_dataset/
 
 retinoblastoma_model/
+
+retinoblastoma_model/dataset_phase_1/
+retinoblastoma_model/dataset_phase_2/
+#retinoblastoma_model/processed_dataset/
