@@ -17,3 +17,5 @@ retinoblastoma_model/
 retinoblastoma_model/dataset_phase_1/
 retinoblastoma_model/dataset_phase_2/
 #retinoblastoma_model/processed_dataset/
+
+inspo.py
