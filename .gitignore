@@ -2,6 +2,7 @@ venv/
 .venv/
 __pycache__/
 wandb/
+.env
 
 info/models/
 
@@ -19,4 +20,3 @@ retinoblastoma_model/dataset_phase_2/
 #retinoblastoma_model/processed_dataset/
 
 inspo.py
-.env
