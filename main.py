@@ -1,27 +1,31 @@
-import json
-from urllib.parse import urlparse
+import cv2
 import boto3
+import numpy as np
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
-import torch
-import torchvision.transforms as transforms
-from PIL import Image
-import requests
-from io import BytesIO
+from urllib.parse import urlparse
 
-import torchvision.models as models
+import torch
 import torch.nn as nn
+import torchvision.models as models
+import torchvision.transforms as transforms
 
 from config import SURFACE_DISEASE_LABELS, RETINOBLASTOMA_LABELS
 from validation_model.model import EyeClassifierCNN 
 from classification_model.model import EyeDiseaseClassifierCNN
 from retinoblastoma_model.model import RetinoblastomaClassifierNonBinaryCNN
 
+from photo_transformation.dataset_prep_lib import process_single_validation_image, process_single_classification_image, process_single_retinoblastoma_image
+
+from dotenv import load_dotenv
+
 app = FastAPI()
+
+load_dotenv()
 
 class S3ClientSingleton:
     _instance = None
-
     def __new__(cls):
         if cls._instance is None:
             cls._instance = boto3.client("s3")
@@ -31,42 +35,20 @@ class S3ClientSingleton:
 class ValidationRequestModel(BaseModel):
     url: str = Field(..., description="Parameter to provide url for image scraping.")
     
-class ClassificationRequestModel(BaseModel):
-    url: str = Field(..., description="Parameter to provide url for image scraping.")
-
-
-validation_transform = transforms.Compose([
-    transforms.Resize((128, 128)),
-    transforms.Grayscale(num_output_channels=1),
-    transforms.ToTensor(), 
-    transforms.Normalize(mean=[0.5], std=[0.5])
-])
-
-retinoblastoma_transform = transforms.Compose([
-    transforms.Resize((256, 256)),
-    transforms.ToTensor()
-])
-
-classifier_transform = transforms.Compose([
-    transforms.Resize((640, 640)),
-    transforms.ToTensor()
-])
 
 validation_model = EyeClassifierCNN()
-validation_model.load_state_dict(torch.load("info/models/validation/validation_model_release_ver.pth", weights_only=True))
+validation_model.load_state_dict(torch.load("info/deployed_models/validation_model_v2.pth", weights_only=True))
 validation_model.eval()
 
-retinoblastoma_model = RetinoblastomaClassifierNonBinaryCNN()
-retinoblastoma_model.load_state_dict(torch.load("info/models/retinoblastoma/retinoblastoma_model_release_version.pth", weights_only=True))
-retinoblastoma_model.eval()
-
-classification_model = models.resnet18(pretrained=False)
+classification_model = models.resnet18(weights=None)
 num_ftrs = classification_model.fc.in_features
 classification_model.fc = nn.Linear(num_ftrs, 8)
-classification_model.load_state_dict(torch.load("info/models/classification/classification_model_RESNET_release_version.pth", weights_only=True))
+classification_model.load_state_dict(torch.load("info/deployed_models/classification_model_RESNET_release_version.pth", weights_only=True))
 classification_model.eval()
 
-
+retinoblastoma_model = RetinoblastomaClassifierNonBinaryCNN()
+retinoblastoma_model.load_state_dict(torch.load("info/deployed_models/retinoblastoma_model_release_version.pth", weights_only=True))
+retinoblastoma_model.eval()
 
 @app.post("/validate-eye")
 async def validate_skin(request: ValidationRequestModel):
@@ -81,20 +63,29 @@ async def validate_skin(request: ValidationRequestModel):
         bucket_name = parsed_url.netloc
         object_key = parsed_url.path.lstrip("/")
         s3 = S3ClientSingleton()
-
+        
+        # Get image from the body
         response = s3.get_object(Bucket=bucket_name, Key=object_key)
         print(f"Status Code: {response['ResponseMetadata']['HTTPStatusCode']}")
         print(f"Headers: {response['ResponseMetadata']}")
 
         file_content = response["Body"].read()
-
-        img = Image.open(BytesIO(file_content))
         
-        transformed_img = validation_transform(img).unsqueeze(0)
+        # Transform image into tensor
+        nparr = np.frombuffer(file_content, np.uint8)
+        img_bgr  = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+        img_rgb  = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
         
-        output = validation_model(transformed_img)
+        processed_img_cv = process_single_validation_image(img_rgb)
+        
+        processed_tensor = torch.from_numpy(processed_img_cv).float() / 255.0
+        processed_tensor = (processed_tensor - 0.5) / 0.5
+        processed_tensor = processed_tensor.unsqueeze(0).unsqueeze(0)
+        
+        # Run validation
+        output = validation_model(processed_tensor)
         predicted = int(output.item())
-        is_eye = predicted == 0  # 0 is 'eye', 1 is 'not eye'
+        is_eye = predicted == 0 # 0 is 'eye', 1 is 'not eye'
 
         return {"is_eye": is_eye}
 
@@ -105,12 +96,9 @@ async def validate_skin(request: ValidationRequestModel):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
-    
-    
 @app.post("/classify-surface-eye")
-async def classify_skin(request: ClassificationRequestModel):
-    url = request.url
-
+async def classify_surface_eye(request: ValidationRequestModel):
+    """Classify eye surface diseases."""
     try:
         parsed_url = urlparse(url)
         if parsed_url.scheme != "s3":
@@ -119,18 +107,28 @@ async def classify_skin(request: ClassificationRequestModel):
         bucket_name = parsed_url.netloc
         object_key = parsed_url.path.lstrip("/")
         s3 = S3ClientSingleton()
-
+        
+        # Get image from the body
         response = s3.get_object(Bucket=bucket_name, Key=object_key)
         print(f"Status Code: {response['ResponseMetadata']['HTTPStatusCode']}")
         print(f"Headers: {response['ResponseMetadata']}")
 
         file_content = response["Body"].read()
+        
+        # Transform image into tensor
+        nparr = np.frombuffer(file_content, np.uint8)
+        img_bgr  = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+        img_rgb  = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
+        
+        processed_img_cv = process_single_classification_image(img_rgb)
 
-        img = Image.open(BytesIO(file_content))
-        img_tensor = classifier_transform(img).unsqueeze(0)
-
+        processed_img_cv = np.transpose(processed_img_cv, (2, 0, 1))
+        processed_tensor = torch.from_numpy(processed_img_cv).float() / 255.0
+        processed_tensor = processed_tensor.unsqueeze(0)
+        
+        # Run validation
         with torch.no_grad():
-            output = classification_model(img_tensor)
+            output = classification_model(processed_tensor)
             probabilities = torch.softmax(output, dim=1).squeeze().tolist()
 
         result = {SURFACE_DISEASE_LABELS[i]: prob for i, prob in enumerate(probabilities)}
@@ -143,11 +141,9 @@ async def classify_skin(request: ClassificationRequestModel):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
-    
-@app.post("/retinoblastoma-eye")
-async def classify_skin(request: ClassificationRequestModel):
-    url = request.url
-
+@app.post("/classify-retina-eye")
+async def classify_retina_eye(request: ValidationRequestModel):
+    """Classify eye retina diseases."""
     try:
         parsed_url = urlparse(url)
         if parsed_url.scheme != "s3":
@@ -156,19 +152,28 @@ async def classify_skin(request: ClassificationRequestModel):
         bucket_name = parsed_url.netloc
         object_key = parsed_url.path.lstrip("/")
         s3 = S3ClientSingleton()
-
+        
+        # Get image from the body
         response = s3.get_object(Bucket=bucket_name, Key=object_key)
         print(f"Status Code: {response['ResponseMetadata']['HTTPStatusCode']}")
         print(f"Headers: {response['ResponseMetadata']}")
 
         file_content = response["Body"].read()
-
-        img = Image.open(BytesIO(file_content))
-        img_tensor = retinoblastoma_transform(img).unsqueeze(0)
-
+        
+        # Transform image into tensor
+        nparr = np.frombuffer(file_content, np.uint8)
+        img_bgr  = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+        img_rgb  = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
+        
+        processed_img_cv = process_single_retinoblastoma_image(img_rgb)
+        
+        processed_img_cv = np.transpose(processed_img_cv, (2, 0, 1))
+        processed_tensor = torch.from_numpy(processed_img_cv).float() / 255.0
+        processed_tensor = processed_tensor.unsqueeze(0)
+        
+        # Run validation
         with torch.no_grad():
-            output = retinoblastoma_model(img_tensor)
-            print(output)
+            output = retinoblastoma_model(processed_tensor)
             probabilities = torch.softmax(output, dim=1).squeeze().tolist()
 
         result = {RETINOBLASTOMA_LABELS[i]: prob for i, prob in enumerate(probabilities)}

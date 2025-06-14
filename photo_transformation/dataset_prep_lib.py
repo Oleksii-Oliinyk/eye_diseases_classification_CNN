@@ -18,67 +18,73 @@ def process_validation_images(images):
     result_images = []
     for image in images: 
         i+=1
-        gray_img = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-        height, width = gray_img.shape
-        if height == width:
-            cropped_img = gray_img
-        a = abs(height - width)
-        a1 = a // 2
-        a2 = a1 if a % 2 == 0 else a1 + 1
-        if height > width:
-            cropped_img = gray_img[a1:height-a2, 0:width]
-        if height < width:
-            cropped_img = gray_img[0:height, a1:width-a2]
-        resized_img = cv2.resize(cropped_img, (128, 128))
+        resized_img = process_single_validation_image(image)
         result_images.append(resized_img)
-
     print("All photos were processed!!!")
     return result_images
+
+def process_single_validation_image(image):
+    gray_img = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+    height, width = gray_img.shape
+    if height == width:
+        cropped_img = gray_img
+    a = abs(height - width)
+    a1 = a // 2
+    a2 = a1 if a % 2 == 0 else a1 + 1
+    if height > width:
+        cropped_img = gray_img[a1:height-a2, 0:width]
+    if height < width:
+        cropped_img = gray_img[0:height, a1:width-a2]
+    resized_img = cv2.resize(cropped_img, (128, 128))
+    return resized_img
 
 def process_retinoblastoma_images(images): 
     processed_images = []
     i = 0
     for image in images: 
         i+=1
-        height, width, _ = image.shape
-        if height == width:
-            cropped_img = image
-        a = abs(height - width)
-        a1 = a // 2
-        a2 = a1 if a % 2 == 0 else a1 + 1
-        if height > width:
-            cropped_img = image[a1:height-a2, 0:width]
-        if height < width:
-            cropped_img = image[0:height, a1:width-a2]
-        
-        processed_img = cv2.resize(cropped_img, (256, 256), interpolation = cv2.INTER_AREA)
-        
+        processed_img = process_single_retinoblastoma_image(image) 
         processed_images.append(processed_img)
-
     return processed_images
+
+def process_single_retinoblastoma_image(image):
+    height, width, _ = image.shape
+    if height == width:
+        cropped_img = image
+    a = abs(height - width)
+    a1 = a // 2
+    a2 = a1 if a % 2 == 0 else a1 + 1
+    if height > width:
+        cropped_img = image[a1:height-a2, 0:width]
+    if height < width:
+        cropped_img = image[0:height, a1:width-a2]
+        
+    processed_img = cv2.resize(cropped_img, (256, 256), interpolation = cv2.INTER_AREA)
+    return processed_img
 
 def process_classification_images(images): 
     processed_images = []
     i = 0
     for image in images: 
         i+=1
-        height, width, _ = image.shape
-        if height == width:
-            cropped_img = image
-        a = abs(height - width)
-        a1 = a // 2
-        a2 = a1 if a % 2 == 0 else a1 + 1
-        if height > width:
-            cropped_img = image[a1:height-a2, 0:width]
-        if height < width:
-            cropped_img = image[0:height, a1:width-a2]
-        
-        processed_img = cv2.resize(cropped_img, (640, 640), interpolation = cv2.INTER_AREA)
-        
+        processed_img = process_single_classification_image(image)
         processed_images.append(processed_img)
-
     return processed_images
 
+def process_single_classification_image(image):
+    height, width, _ = image.shape
+    if height == width:
+        cropped_img = image
+    a = abs(height - width)
+    a1 = a // 2
+    a2 = a1 if a % 2 == 0 else a1 + 1
+    if height > width:
+        cropped_img = image[a1:height-a2, 0:width]
+    if height < width:
+        cropped_img = image[0:height, a1:width-a2]
+    
+    processed_img = cv2.resize(cropped_img, (640, 640), interpolation = cv2.INTER_AREA)
+    return processed_img
 
 def flip_images(images):
     flipped_images = []
