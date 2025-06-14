@@ -1,6 +1,7 @@
 import cv2
 import boto3
 import numpy as np
+import requests
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
@@ -35,9 +36,16 @@ class S3ClientSingleton:
 class ValidationRequestModel(BaseModel):
     url: str = Field(..., description="Parameter to provide url for image scraping.")
     
+class ClassificationRequestModel(BaseModel):
+    url: str = Field(..., description="Parameter to provide url for image scraping.")
+    user_id: str = Field(..., description="Parameter to provide a user identifier.")
+    timestamp: str = Field(
+        ..., description="Parameter to provide a timestamp of request."
+    )
+    
 
 validation_model = EyeClassifierCNN()
-validation_model.load_state_dict(torch.load("info/deployed_models/validation_model_v2.pth", weights_only=True))
+validation_model.load_state_dict(torch.load("info/deployed_models/validation_model_final_version.pth", weights_only=True))
 validation_model.eval()
 
 classification_model = models.resnet18(weights=None)
@@ -77,7 +85,6 @@ async def validate_skin(request: ValidationRequestModel):
         img_rgb  = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
         
         processed_img_cv = process_single_validation_image(img_rgb)
-        
         processed_tensor = torch.from_numpy(processed_img_cv).float() / 255.0
         processed_tensor = (processed_tensor - 0.5) / 0.5
         processed_tensor = processed_tensor.unsqueeze(0).unsqueeze(0)
@@ -97,8 +104,13 @@ async def validate_skin(request: ValidationRequestModel):
         raise HTTPException(status_code=500, detail=str(e))
     
 @app.post("/classify-surface-eye")
-async def classify_surface_eye(request: ValidationRequestModel):
+async def classify_surface_eye(request: ClassificationRequestModel):
     """Classify eye surface diseases."""
+    url = request.url
+    user_id = request.user_id
+    timestamp = request.timestamp
+    print(url)
+    
     try:
         parsed_url = urlparse(url)
         if parsed_url.scheme != "s3":
@@ -142,8 +154,12 @@ async def classify_surface_eye(request: ValidationRequestModel):
         raise HTTPException(status_code=500, detail=str(e))
     
 @app.post("/classify-retina-eye")
-async def classify_retina_eye(request: ValidationRequestModel):
+async def classify_retina_eye(request: ClassificationRequestModel):
     """Classify eye retina diseases."""
+    url = request.url
+    user_id = request.user_id
+    timestamp = request.timestamp
+    print(url)
     try:
         parsed_url = urlparse(url)
         if parsed_url.scheme != "s3":

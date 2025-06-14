@@ -7,6 +7,7 @@ wandb/
 info/models/
 
 validation_model/unproccesed_dataset/
+validation_model/processed_dataset_new/
 #validation_model/processed_dataset/
 
 classification_model/processing_dataset_phase_1/
@@ -16,3 +17,5 @@ classification_model/processing_dataset_phase_2/
 retinoblastoma_model/dataset_phase_1/
 retinoblastoma_model/dataset_phase_2/
 #retinoblastoma_model/processed_dataset/
+
+inspo.py
