@@ -45,17 +45,17 @@ class ClassificationRequestModel(BaseModel):
     
 
 validation_model = EyeClassifierCNN()
-validation_model.load_state_dict(torch.load("info/deployed_models/validation_model_final_version.pth", weights_only=True))
+validation_model.load_state_dict(torch.load("info/deployed_models/validation_model_final_version.pth", map_location=torch.device('cpu'), weights_only=True))
 validation_model.eval()
 
 classification_model = models.resnet18(weights=None)
 num_ftrs = classification_model.fc.in_features
 classification_model.fc = nn.Linear(num_ftrs, 8)
-classification_model.load_state_dict(torch.load("info/deployed_models/classification_model_RESNET_release_version.pth", weights_only=True))
+classification_model.load_state_dict(torch.load("info/deployed_models/classification_model_RESNET_release_version.pth", map_location=torch.device('cpu'), weights_only=True))
 classification_model.eval()
 
 retinoblastoma_model = RetinoblastomaClassifierNonBinaryCNN()
-retinoblastoma_model.load_state_dict(torch.load("info/deployed_models/retinoblastoma_model_release_version.pth", weights_only=True))
+retinoblastoma_model.load_state_dict(torch.load("info/deployed_models/retinoblastoma_model_release_version.pth", map_location=torch.device('cpu'), weights_only=True))
 retinoblastoma_model.eval()
 
 @app.post("/validate-eye")
