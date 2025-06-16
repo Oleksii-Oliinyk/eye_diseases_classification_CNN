@@ -14,6 +14,6 @@ RETINOBLASTOMA_LABELS = {
     1: "Retinoblastoma",
 }
 
-DETECTION_SURFACE_TYPE = "ophthalmology_surface"
-DETECTION_RETINA_TYPE = "ophthalmology_retina"
+DETECTION_SURFACE_TYPE = "ophthalmology"
+DETECTION_RETINA_TYPE = "oncophtalmology"
 RESULTS_FOLDER = "results"

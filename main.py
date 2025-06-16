@@ -158,7 +158,7 @@ async def classify_surface_eye(request: ClassificationRequestModel):
             ContentType="application/json",
         )
         
-        return {**result, "path": new_s3_path}
+        return {**result}
 
     except requests.RequestException as e:
         raise HTTPException(
@@ -220,7 +220,7 @@ async def classify_retina_eye(request: ClassificationRequestModel):
             ContentType="application/json",
         )
         
-        return {**result, "path": new_s3_path}
+        return {**result}
 
     except requests.RequestException as e:
         raise HTTPException(
