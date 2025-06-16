@@ -13,3 +13,7 @@ RETINOBLASTOMA_LABELS = {
     0: "Healthy eye",
     1: "Retinoblastoma",
 }
+
+DETECTION_SURFACE_TYPE = "ophthalmology_surface"
+DETECTION_RETINA_TYPE = "ophthalmology_retina"
+RESULTS_FOLDER = "results"

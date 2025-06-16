@@ -1,4 +1,5 @@
 import cv2
+import json
 import boto3
 import numpy as np
 import requests
@@ -12,7 +13,7 @@ import torch.nn as nn
 import torchvision.models as models
 import torchvision.transforms as transforms
 
-from config import SURFACE_DISEASE_LABELS, RETINOBLASTOMA_LABELS
+from config import SURFACE_DISEASE_LABELS, RETINOBLASTOMA_LABELS, DETECTION_SURFACE_TYPE, DETECTION_RETINA_TYPE, RESULTS_FOLDER
 from validation_model.model import EyeClassifierCNN 
 from classification_model.model import EyeDiseaseClassifierCNN
 from retinoblastoma_model.model import RetinoblastomaClassifierNonBinaryCNN
@@ -45,7 +46,7 @@ class ClassificationRequestModel(BaseModel):
     
 
 validation_model = EyeClassifierCNN()
-validation_model.load_state_dict(torch.load("info/deployed_models/validation_model_final_version.pth", map_location=torch.device('cpu'), weights_only=True))
+validation_model.load_state_dict(torch.load("info/deployed_models/validation_model_release_version.pth", map_location=torch.device('cpu'), weights_only=True))
 validation_model.eval()
 
 classification_model = models.resnet18(weights=None)
@@ -144,7 +145,20 @@ async def classify_surface_eye(request: ClassificationRequestModel):
             probabilities = torch.softmax(output, dim=1).squeeze().tolist()
 
         result = {SURFACE_DISEASE_LABELS[i]: prob for i, prob in enumerate(probabilities)}
-        return {**result}
+        
+        base_path, old_folder, file_name = url.rsplit("/", 2)
+        new_file_name = f"{user_id}_{DETECTION_SURFACE_TYPE}_{timestamp}.txt"
+        new_s3_path = f"{base_path}/{RESULTS_FOLDER}/{new_file_name}"
+        s3_key = "/".join(new_s3_path.split("/")[3:])
+
+        s3.put_object(
+            Bucket=bucket_name,
+            Key=s3_key,
+            Body=json.dumps({**result, "image_url": url}),
+            ContentType="application/json",
+        )
+        
+        return {**result, "path": new_s3_path}
 
     except requests.RequestException as e:
         raise HTTPException(
@@ -193,7 +207,20 @@ async def classify_retina_eye(request: ClassificationRequestModel):
             probabilities = torch.softmax(output, dim=1).squeeze().tolist()
 
         result = {RETINOBLASTOMA_LABELS[i]: prob for i, prob in enumerate(probabilities)}
-        return {**result}
+        
+        base_path, old_folder, file_name = url.rsplit("/", 2)
+        new_file_name = f"{user_id}_{DETECTION_RETINA_TYPE}_{timestamp}.txt"
+        new_s3_path = f"{base_path}/{RESULTS_FOLDER}/{new_file_name}"
+        s3_key = "/".join(new_s3_path.split("/")[3:])
+
+        s3.put_object(
+            Bucket=bucket_name,
+            Key=s3_key,
+            Body=json.dumps({**result, "image_url": url}),
+            ContentType="application/json",
+        )
+        
+        return {**result, "path": new_s3_path}
 
     except requests.RequestException as e:
         raise HTTPException(
